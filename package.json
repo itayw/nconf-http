@@ -1,0 +1,21 @@
+{
+  "name": "nconf-http",
+  "description": "An HTTP(S) store for nconf",
+  "version": "0.0.1",
+  "author": "Itay Weinberger <itay@joo.la>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/itayw/nconf-http.git"
+  },
+  "keywords": ["configuration", "key value store", "nconf", "http"],
+  "dependencies": {
+    "async": "0.1.x"
+  },
+  "devDependencies": {
+    "nconf": "0.5.x",
+    "vows": "0.6.x"
+  },
+  "main": "./lib/nconf-http",
+  "scripts": { "test": "vows test/*-test.js --spec" },
+  "engines": { "node": ">= 0.4.0" }
+}
